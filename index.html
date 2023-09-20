@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sezin</title>
+</head>
+<body>
+    <header>
+        <div class="container navigation">
+            <nav>
+               <div  class="header-logo">
+                <img src="images/logo.png" alt="logo">
+               </div>
+                <div class="navv d-none d-md-none d-lg-block">
+                 <a href="#">Home</a>
+                 <a href="#">Find help</a>
+                 <a href="#">Support</a>
+                 <a href="#">Contact Us</a>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-nav">Self-Improvement</button>
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item dropdown-item-t" href="#">Meditation</a></li>
+                    <li><hr class="dropdown-divider dropdown-item-b"></li>
+                    <li><a class="dropdown-item" href="#">Inspiration</a></li>
+                    </ul>
+                </div>
+                 <button type="button" class="btnLogin-popup"  data-toggle="modal" data-target="#exampleModal" >Login</button>
+                </div>
+            </nav>
+            
+        </div>
+            <div class="pos-f-t burger">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="logo">
+                        </div>
+                        <button class="navbar-toggler collapsed navBar_btn" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon navBar_btn_icon"></span>
+                        </button>
+                    </div>
+                </nav>
+                <div class="collapse" id="navbarToggleExternalContent" style="">
+    
+                        <div class="p-4">
+                            <div class="container">
+                                <div class="nav_links">
+                                    <a href="#">Home</a>
+                                    <a href="#">Find help</a>
+                                    <a href="#">Support</a>
+                                    <a href="#">Contact Us</a>
+                                    <a href="#">Self-Improvement</a>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <form class="card-body cardbody-color p-lg-5">
+
+                        <div class="text-center">
+                          <img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397__340.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+                            width="200px" alt="profile">
+                        </div>
+            
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="Username" aria-describedby="emailHelp"
+                            placeholder="User Name">
+                        </div>
+                        <div class="mb-3">
+                          <input type="password" class="form-control" id="password" placeholder="password">
+                        </div>
+                        <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100">Login</button></div>
+                        <div id="emailHelp" class="form-text text-center mb-5 text-dark">Not
+                          Registered? <a href="#" class="text-dark fw-bold"> Create an
+                            Account</a>
+                        </div>
+                      </form>
+                </div>
+              </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>We’d like to improve the quality of your 
+                            life through your own assistance!</h1>
+                        <p>Sezin is a platform that treats people as
+                             individuals, promoting respect, dignity
+                              and recognising</p>
+                        <button class="hero_btn">GET STARTED</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="bg" src="images/hero-img.png" alt="hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero_down">
+            <div>
+                <div class="hero_down_img"></div>
+            </div>
+        </div>
+        <div class="frame">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="images/fame-img.png" class="frame" alt="hero-img">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Welcome to Sezin</h2>
+                        <div class="wel-border"></div>
+                        <p>We exist to:</p>
+                            <ul class="mypoint">
+                              <li>work for and promote the preservation and safeguarding of good mental health</li>
+                              <li> work for, promote and provide for the well-being, interests and rights of
+                                people who have mental ill health</li>
+                            </ul>
+                        <button class="frame_btn">DISCOVER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="feeling">
+            <div class="container">
+                <div class="feel">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h2 class="feel_title">How are you feeling today?</h2>
+                            <div id="feel_buttons" class="feel_buttons"></div>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="feel_images" class="feel_images"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+        <div>
+            <div class="container recent">
+                <h2>Recent Webinars</h2>
+                <div class="rec-border"></div>
+                <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Suspendisse varius enim in eros elementum tristique. Duis cursus,
+                     mi quis viverra ornare, eros dolor 
+                    interdum nulla, ut commodo diam libero vitae erat.
+                </p>
+                    <button class="recent_btn">VIEW ALL </button>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="card" src="images/Card1.png" alt="">
+                        <div class="card_title">How to start thinking positively?</div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="card"  src="images/Card2.png" alt="">
+                        <div class="card_title">Yoga to reduce fatigue</div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="card" src="images/Card1.png" alt="">
+                        <div class="card_title">You are not lazy, bored, or unmotivated</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="download">
+            <div class="container">
+                <h2>Download our app</h2>
+                <div class="dow-border"></div>
+                <p>Discover exclusive help and unique content with our mobile experience.</p>
+                <img src="images/Store.png" alt="">
+                <div class="app">
+                    <div class="row">
+                        <div class="col-md-6"><img src="images/X-1.png" alt=""></div>
+                        <div class="col-md-6"><img src="images/X-2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+        <footer>
+            <div class="footer-end">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <img  class="footer-logo" src="images/logo.png" alt="logo">
+                        <p>Sezin, Inc, 234
+                        Almaty, Dostyk Street 29/28</p>
+                        <p><span class="numb">info@warehouse.project
+                        1-232-3434 (Main) </span></p>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h4>About</h4>
+                        <p>Profile
+                            Features
+                            Careers
+                            DW News</p>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <h4>Help</h4>
+                        <p>Support
+                            Sign up
+                            Guide
+                            Reports
+                            Q&A</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <h4>Social Media</h4>
+                        <a href="#"><img  src="images/f.png" alt="logo"></a>
+                        <a href="#"><img src="images/t.png" alt="logo"></a>
+                        <a href="#"><img src="images/i.png" alt="logo"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container footer-down">
+                <div class="down-title">© Sezin™, 2022. All rights reserved.
+                    Company Registration Number: 1223456789.</div>
+                <div class="down-img"><img src="images/sms.png" alt="logo"></div> 
+            </div>
+        </div>
+        </footer>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
